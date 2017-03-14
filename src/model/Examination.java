@@ -19,7 +19,7 @@ public class Examination {
         return evidences;
     }
 
-    public void setEvidences(Evidence evidence) {
+    public void addEvidence(Evidence evidence) {
         this.evidences.add(evidence);
     }
 
@@ -27,7 +27,7 @@ public class Examination {
         return dependencies;
     }
 
-    public void setDependencies(Law dependencies) {
+    public void addDependency(Law dependencies) {
         this.dependencies.add(dependencies);
     }
 
